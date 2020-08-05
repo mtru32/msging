@@ -12,9 +12,9 @@ client = Client(account_sid, auth_token)
 
 message = client.messages \
                 .create(
-                     body="Join Earth's mightiest heroes. Like Kevin Bacon.",
-                     from_= twil,
-                     to= me
+                     body="Hello, World",
+                     from_=twil,
+                     to=me
                  )
 
 print(message.sid)
