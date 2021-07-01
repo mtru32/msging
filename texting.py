@@ -12,7 +12,7 @@ client = Client(account_sid, auth_token)
 
 message = client.messages \
                 .create(
-                    body="Hello, World. This is Mark.",
+                    body="Hello, World.",
                     from_=twil,
                     to=me
                 )
